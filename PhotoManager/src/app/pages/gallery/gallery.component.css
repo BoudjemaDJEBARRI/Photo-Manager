@@ -1,0 +1,59 @@
+/* Mise en forme de la photo */
+.card {
+    /* border: 0px solid #f0f7ff; */
+    margin-bottom: 20px;
+    min-height: 400px; /* Ajustez cette valeur en fonction de la hauteur minimale souhaitée pour les cartes */
+  }
+  .card-img-top {
+    width: 100%;
+    height: 200px; /* Ajustez cette valeur pour changer la hauteur de l'image */
+    object-fit: cover; /* Pour s'assurer que l'image couvre toute la zone, quel que soit son rapport d'aspect */
+  }
+  
+  /* Change la couleur du titre à bleu */
+  .card-title {
+    color: #007bff;
+  }
+  
+  /* Change la couleur du texte à gris */
+  .card-text {
+    color: #6c757d;
+  }
+  
+  /** Ajouter annimation au click */
+  .card {
+    transition: transform 0.3s ease-in-out;
+  }
+  .card:active {
+    transform: scale(0.97);
+  }
+  
+  /** Ajouter annimation au Hover */
+  .card:hover {
+    transform: scale(1.02);
+  }
+  .card .card-img-top {
+    background-color: #f0f7ff;
+  }
+  
+  .card .card-body {
+    background-color: #f0f7ff;
+  }
+  .card .card-footer {
+    background-color: #f0f7ff;
+  }
+  
+  .card .card-title {
+    background-color: #f0f7ff;
+    padding: 10px;
+  }
+  
+  .card .card-text {
+    background-color: #f0f7ff;
+    padding: 10px;
+  }
+  
+  .card .btn {
+    margin-top: 10px;
+  }
+  

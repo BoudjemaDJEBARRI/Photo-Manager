@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "PhotoManager",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}

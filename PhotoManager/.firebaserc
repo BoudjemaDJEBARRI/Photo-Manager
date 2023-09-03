@@ -1,0 +1,21 @@
+{
+  "targets": {
+    "photogallery-ang-fire": {
+      "hosting": {
+        "PhotoManager": [
+          "djebarri-boudjema-managerphoto"
+        ]
+      }
+    },
+    "photomanager-c81a1": {
+      "hosting": {
+        "PhotoManager": [
+          "djebarri-boudjema-phmanager"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "photomanager-c81a1"
+  }
+}
